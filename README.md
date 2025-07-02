@@ -1,71 +1,85 @@
-# 🧠 JavaScript Mini Projects
+# 🧠 JavaScript Projects Collection
 
-Welcome to my **JavaScript Projects** repository! This contains a collection of interactive mini web apps built using **HTML**, **CSS**, and **JavaScript** to sharpen my frontend skills.
+Welcome to my **JavaScript Projects** repository! This repo showcases a collection of beginner-friendly web apps I built using **HTML**, **CSS**, and **JavaScript**.
 
----
-
-## 🚀 Projects Included
-
-### 1. 🧮 Calculator
-A simple, responsive calculator that supports:
-- Mouse and keyboard input
-- Expression evaluation using [Math.js](https://mathjs.org/)
-- Delete (Clear), Backspace (remove last character)
-- Keyboard UI feedback (key glow)
-- Live calculation history
-
-📸 **Features:**
-- Responsive UI  
-- Keyboard support (`Enter`, `Backspace`, `Delete`)  
-- Realtime history display  
-- Clean and modern look
+Each project is organized in its own folder for easy access and modularity.
 
 ---
 
-### 2. 🧩 Word Scramble Game
-A fun word guessing game that includes:
-- Scrambled tech-related words
-- Hints for each word
-- Scoring system
-- Live feedback ("Correct" / "Incorrect")
-- Refresh for a new word
+## 📁 Project Structure
 
-📸 **Features:**
-- Keyboard and mouse input  
-- Hint display  
+javascript-projects/
+│
+├── Calculator/
+│ └── calc.html
+│
+├── Gaming App/
+│ ├── games.html
+│ ├── games2.css
+│ └── games2.js
+│
+├── Clock/
+│ ├── clock.html
+│ ├── clock2.css
+│ └── clock2.js
+
+---
+
+## 🚀 Projects Overview
+
+### 🔢 1. Calculator
+
+> Folder: `Calculator/`
+
+A responsive and interactive calculator supporting full **keyboard input**, **expression parsing using Math.js**, and **history tracking**.
+
+✅ Features:
+- Keyboard & mouse support  
+- `Enter`, `Backspace`, `Delete` keys support  
+- Glowing button feedback on keypress  
+- Real-time calculation history  
+- Clean layout with responsive design
+
+🔧 Tech Used: HTML, CSS, JavaScript, [Math.js](https://mathjs.org/)
+
+---
+
+### 🎮 2. Word Scramble Game
+
+> Folder: `Gaming App/`
+
+A guessing game where you unscramble randomly shuffled tech words using hints.
+
+✅ Features:
+- Word shuffling logic  
+- Hint system  
 - Score tracking  
-- Random shuffling and word selection
+- Keyboard input and validation  
+- Refresh to get a new word
+
+🔧 Tech Used: HTML, CSS, JavaScript
 
 ---
 
-### 3. 🕒 Digital Clock
-A live digital clock that:
-- Updates every second
-- Shows current hours, minutes, and seconds
-- Uses clean CSS styling
+### ⏰ 3. Digital Clock
 
-📸 **Features:**
-- Real-time updates  
-- Fully responsive  
-- Neat visual format  
+> Folder: `Clock/`
 
----
+A simple real-time digital clock that displays the current hour, minute, and second with a clean UI.
 
-## 🛠️ Technologies Used
+✅ Features:
+- Auto-refresh every second  
+- Stylish UI with responsive layout  
+- Modular CSS and JS
 
-- HTML5  
-- CSS3  
-- Vanilla JavaScript  
-- Math.js for calculator evaluation
+🔧 Tech Used: HTML, CSS, JavaScript
 
 ---
 
-## 💡 How to Run
+## 🧪 How to Run
 
-Just open the `.html` file of each project in your browser:
+You can open each `.html` file directly in a browser:
 
-```bash
-project-folder/
-├── calculator.html
-├── word-scramble.html
-├── clock.html
+Calculator/calc.html
+Gaming App/games.html
+Clock/clock.html
